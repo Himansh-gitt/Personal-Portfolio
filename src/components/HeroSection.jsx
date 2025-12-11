@@ -6,6 +6,20 @@ export const HeroSection = () => {
       id="hero"
       className="relative min-h-screen flex flex-col items-center justify-center px-4"
     >
+       
+       <header className="flex items-center justify-between px-6 py-4">
+  <div className="flex items-center">
+    <img
+      src="/projects/project4.jpg"
+      alt="Himanshu Soni"
+      className="w-50 h-50 rounded-full object-cover border border-primary shadow-md mr-3"
+    />
+
+  </div>
+
+</header>
+
+
       <div className="container max-w-4xl mx-auto text-center z-10">
         <div className="space-y-6">
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
